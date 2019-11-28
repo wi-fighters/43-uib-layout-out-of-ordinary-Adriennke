@@ -1,4 +1,60 @@
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
+}
+
+.genres {
+    display: flex;
+    flex-flow: row wrap;
+
+}
+
+#action {
+    background-color: dodgerblue;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+#thriller {
+    background-color: rgb(190, 178, 178);
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    flex-grow: 10;
+}
+
+#comedy {
+    background-color: rgb(255, 214, 30);
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    flex-grow: 10;
+}
+
+#horror {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+#drama {
+    background-color: darkgrey;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    flex-grow: 1;
+}
+
+#romance {
+    background-color: red;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    flex-grow: 1;
 }

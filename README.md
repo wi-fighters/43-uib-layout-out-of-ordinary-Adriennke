@@ -1,4 +1,3 @@
-
 # Movie Genres
 
 **Instructions**:
@@ -14,7 +13,7 @@
 3.  For each section, center the font.
 4.  Each flex-item should have a basic width of 500px and a fixed height of 100px. By default, each flex-item should take up all extra space.
 5.  Now, make an exception for "thriller" and "comedy", Both sections should take up 10 times the amount of extra-space of their adjacent element.
-    
+
 **Hint**: Consider using flex-wrap.
 
 ![reference-gif](/images/example.gif)
